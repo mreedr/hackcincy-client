@@ -1,0 +1,41 @@
+@import 'base';
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f8f8f8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+button {
+  background: #009900;
+  padding:  10px;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #33cd62;
+  padding:  10px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {outline:0;}

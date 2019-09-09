@@ -1,0 +1,36 @@
+.page-layout__viewport {
+  padding-top: 4rem;
+}
+
+.page-layout__nav-item--active {
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0,0,0,.6);
+  right: 0;
+  left: 0;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  font-family: 'Lato', sans-serif;
+
+
+  .nav-item {
+    flex: 1;
+    padding: 15px;
+    color: #ffffff;
+  }
+
+  a.nav-item:hover {
+    text-decoration: none;
+    color: #33cd62;
+    transition: background-color .2s linear;
+
+  }
+
+}
+
+// green: 149718
